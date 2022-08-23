@@ -1,0 +1,92 @@
+
+h{
+    background-color: rebeccapurple;
+}
+
+
+@media (min-width: 320px){
+    .numero1{
+        width: 90%;
+        height: 50px;
+        display: inline-block;
+        background-color: aqua;
+
+    }
+    .numero2{
+        width: 90%;
+        height: 60px;
+        background-color: red;
+
+    }
+    .numero3{
+        height: 50px;
+        width: 90%;
+        display: inline-block;
+        background-color: rebeccapurple;
+
+    }
+    .numero4{
+        width: 90%;
+        height: 45px;
+        display: inline-block;
+        background-color: green;
+
+    }
+}
+
+@media (min-width: 768px){
+    
+    .numero1{
+        width: 95%;
+        height: 33px;
+        background-color: aqua;
+
+    }
+    .numero2{
+        width: 95%;
+        height: 180px;
+        background-color: red;
+
+    }
+    .numero3{
+        width: 31.4%;
+        height: 50px;
+        background-color: rebeccapurple;
+
+    }
+    .numero4{
+        width: 47.5%;
+        height: 40px;
+        background-color: green;
+
+    }
+}
+
+
+@media (min-width: 1024px){
+   
+    .numero1{
+        width: 45%;
+        height: 50px;
+        background-color: aqua;
+
+    }
+    .numero2{
+        width: 90%;
+        height: 250px;
+        background-color: red;
+
+    }
+    .numero3{
+        width: 29.7%;
+        height: 100px;
+        background-color: rebeccapurple;
+
+    }
+    .numero4{
+        width: 22.2%;
+        height: 70px;
+        background-color: green;
+
+    }
+}
